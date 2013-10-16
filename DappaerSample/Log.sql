@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Log]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NewID(), 
+    [TimeStamp] DATETIME2 NOT NULL, 
+    [Description] NVARCHAR(MAX) NULL
+)
